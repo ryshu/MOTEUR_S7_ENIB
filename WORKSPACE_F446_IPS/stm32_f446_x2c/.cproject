@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="0.86121029">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="0.86121029" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.VCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration buildProperties="" description="" id="0.86121029" name="Default" parent="org.eclipse.cdt.build.core.prefbase.cfg">
+					<folderInfo id="0.86121029." name="/" resourcePath="">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.1964852519" name="No ToolChain" resourceTypeBasedDiscovery="false" superClass="org.eclipse.cdt.build.core.prefbase.toolchain">
+							<targetPlatform id="org.eclipse.cdt.build.core.prefbase.toolchain.1964852519.1244721421" name=""/>
+							<builder id="org.eclipse.cdt.build.core.settings.default.builder.1868421314" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="org.eclipse.cdt.build.core.settings.default.builder"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.55834555" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs">
+								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.348927038" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/lib/gcc"/>
+									<listOptionValue builtIn="false" value="../stm32f411_f446_x2c/Drivers/CMSIS/Lib/GCC"/>
+								</option>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.828236834" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.752300498" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1969777492" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1900850403" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.79580336" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1848969924" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/lib/gcc/arm-none-eabi/5.2.1/include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c/Inc"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c/FreeRTOS/Source/include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/CMSIS/Include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/BSP/STM32F4xx-Nucleo"/>
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include/sys/"/>
+									<listOptionValue builtIn="false" value="/local/X2C/Controller/Common/"/>
+									<listOptionValue builtIn="false" value="/local/X2C/Library/General/Controller/inc/"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1885994146" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="0.86121029.804724337" name="/" resourcePath="FreeRTOS/Source">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.657993755" name="No ToolChain" superClass="org.eclipse.cdt.build.core.prefbase.toolchain" unusedChildren="">
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1467246065" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs.55834555">
+								<option id="org.eclipse.cdt.build.core.settings.holder.libpaths.1758510765" name="Library Paths" superClass="org.eclipse.cdt.build.core.settings.holder.libpaths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/lib/gcc"/>
+									<listOptionValue builtIn="false" value="/home/kerhoas/WORKSPACE_F446_IPS/stm32f411_f446_pmsm_4/Drivers/CMSIS/Lib/GCC"/>
+									<listOptionValue builtIn="false" value="../stm32_f446_x2c_4/FreeRTOS/Source"/>
+									<listOptionValue builtIn="false" value="../stm32_f446_x2c_4/FreeRTOS/Source/portable"/>
+								</option>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.549867321" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1459470615" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1299736653" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.54487103" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1738340230" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.1482568627" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="0.86121029.1701323716" name="/" resourcePath="X2C">
+						<toolChain id="org.eclipse.cdt.build.core.prefbase.toolchain.2022462037" name="No ToolChain" superClass="org.eclipse.cdt.build.core.prefbase.toolchain" unusedChildren="">
+							<tool id="org.eclipse.cdt.build.core.settings.holder.libs.1253635456" name="holder for library settings" superClass="org.eclipse.cdt.build.core.settings.holder.libs.55834555"/>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.1629976240" name="Assembly" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.859562574" languageId="org.eclipse.cdt.core.assembly" languageName="Assembly" sourceContentType="org.eclipse.cdt.core.asmSource" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.455420498" name="GNU C++" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.154627189" languageId="org.eclipse.cdt.core.g++" languageName="GNU C++" sourceContentType="org.eclipse.cdt.core.cxxSource,org.eclipse.cdt.core.cxxHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+							<tool id="org.eclipse.cdt.build.core.settings.holder.410118125" name="GNU C" superClass="org.eclipse.cdt.build.core.settings.holder.828236834">
+								<option id="org.eclipse.cdt.build.core.settings.holder.incpaths.1074825688" name="Include Paths" superClass="org.eclipse.cdt.build.core.settings.holder.incpaths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/lib/gcc/arm-none-eabi/5.2.1/include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c/Inc"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/STM32F4xx_HAL_Driver/Inc"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c/FreeRTOS/Source/include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/CMSIS/Include/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c//Drivers/BSP/STM32F4xx-Nucleo"/>
+									<listOptionValue builtIn="false" value="/local/sdk_elec/gcc-arm-none-eabi-5_2-2015q4/arm-none-eabi/include/sys/"/>
+									<listOptionValue builtIn="false" value="/home/kerhoas/X2Copen-v910-2016-03-25/X2C/Library/ENIB/Controller/inc/"/>
+									<listOptionValue builtIn="false" value="/home/kerhoas/X2Copen-v910-2016-03-25/X2C/Library/General/Controller/inc/"/>
+									<listOptionValue builtIn="false" value="/stm32_f446_x2c/X2C/"/>
+									<listOptionValue builtIn="false" value="/home/kerhoas/X2Copen-v910-2016-03-25/X2C/Library/Math/Controller/inc/"/>
+								</option>
+								<inputType id="org.eclipse.cdt.build.core.settings.holder.inType.858843147" languageId="org.eclipse.cdt.core.gcc" languageName="GNU C" sourceContentType="org.eclipse.cdt.core.cSource,org.eclipse.cdt.core.cHeader" superClass="org.eclipse.cdt.build.core.settings.holder.inType"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="stm32_f411_motor_4.null.1510407714" name="stm32_f411_motor_4"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="0.86121029">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="0.1630177868">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/stm32_f411_motor_4"/>
+		</configuration>
+	</storageModule>
+</cproject>

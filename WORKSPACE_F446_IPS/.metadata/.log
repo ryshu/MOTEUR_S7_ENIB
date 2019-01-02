@@ -1,0 +1,26 @@
+!SESSION 2017-08-30 16:31:54.856 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-08-30 16:32:55.932
+!MESSAGE Indexed 'stm32_f446_x2c' (344 sources, 225 headers) in 6.82 sec: 23,690 declarations; 97,013 references; 111 unresolved inclusions; 386 syntax errors; 12,029 unresolved names (9.1%)
+!SESSION 2017-09-04 17:13:26.647 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-04 17:20:54.241
+!MESSAGE Indexed 'stm32_f446_x2c' (343 sources, 212 headers) in 9.89 sec: 23,320 declarations; 96,466 references; 86 unresolved inclusions; 384 syntax errors; 11,796 unresolved names (9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-04 17:22:16.881
+!MESSAGE Indexed 'stm32_f446_x2c' (343 sources, 215 headers) in 4.31 sec: 23,488 declarations; 96,643 references; 85 unresolved inclusions; 390 syntax errors; 11,852 unresolved names (9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-09-04 17:23:46.125
+!MESSAGE Indexed 'stm32_f446_x2c' (343 sources, 217 headers) in 3.81 sec: 23,537 declarations; 96,711 references; 83 unresolved inclusions; 392 syntax errors; 11,857 unresolved names (9%)

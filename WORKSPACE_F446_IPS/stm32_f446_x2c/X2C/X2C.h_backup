@@ -1,0 +1,92 @@
+/**
+ * @file
+ * @brief Generated model file.
+
+ * Date:  2017-08-30 16:33
+ * X2C-Version: 910
+ */
+/* This file is part of X2C. http://www.mechatronic-simulation.org/                                                   */
+
+/* Model: stm32_f446_x2c                                                                                              */
+/* Date:  2017-08-30 16:33                                                                                            */
+
+/* X2C-Version: 910                                                                                                   */
+
+#ifndef __X2C_H__
+#define __X2C_H__
+
+/**********************************************************************************************************************/
+/**     Includes                                                                                                     **/
+/**********************************************************************************************************************/
+#include "Constant_FiP16.h"
+#include "Scope_Main.h"
+#include "CommonFcts.h"
+/**********************************************************************************************************************/
+/**     Defines                                                                                                      **/
+/**********************************************************************************************************************/
+#define FUNCTIONS CONSTANT_FIP16_FUNCTIONS , \
+                  SCOPE_MAIN_FUNCTIONS 
+
+#define PARAMETER_TABLE { (uint16)1, &TConstant23 } , \
+                        { (uint16)2, &TConstant24 } , \
+                        { (uint16)3, &TConstant25 } , \
+                        { (uint16)4, &TConstant26 } , \
+                        { (uint16)5, &TConstant27 } , \
+                        { (uint16)6, &TConstant28 } , \
+                        { (uint16)7, &TConstant29 } , \
+                        { (uint16)8, &TConstant30 } , \
+                        { (uint16)9, &TConstant31 } , \
+                        { (uint16)10, &TScope } , \
+                        { (uint16)11, &Inports.Ia } , \
+                        { (uint16)12, &Inports.Ib } , \
+                        { (uint16)13, &Inports.pot } , \
+                        { (uint16)14, &Inports.pulse } , \
+                        { (uint16)15, &Inports.speed } , \
+                        { (uint16)16, &Inports.theta_elec } , \
+                        { (uint16)17, &Outports.pIQ_mes } , \
+                        { (uint16)18, &Outports.pduty_3 } , \
+                        { (uint16)19, &Outports.pduty_2 } , \
+                        { (uint16)20, &Outports.pduty_1 } 
+
+/**********************************************************************************************************************/
+/**     Typdefs                                                                                                      **/
+/**********************************************************************************************************************/
+
+/* Inport structure                                                                                                   */
+typedef struct 
+{
+    int16 Ia;
+    int16 Ib;
+    int16 theta_elec;
+    int16 pot;
+    int16 pulse;
+    int16 speed;
+} TInports;
+
+/* Outport structure                                                                                                  */
+typedef struct 
+{
+    int16* pIQ_mes;
+    int16* pduty_3;
+    int16* pduty_2;
+    int16* pduty_1;
+} TOutports;
+
+/**********************************************************************************************************************/
+/**     Externals                                                                                                    **/
+/**********************************************************************************************************************/
+extern TInports Inports;
+extern TOutports Outports;
+extern const tBlockFunctions blockFunctionTable[];
+extern const tParameterTable parameterIdTable[];
+
+
+/**********************************************************************************************************************/
+/**     Prototypes                                                                                                   **/
+/**********************************************************************************************************************/
+void X2C_Init(void);
+void X2C_Update(void);
+void X2C_Update_1(void);
+
+
+#endif

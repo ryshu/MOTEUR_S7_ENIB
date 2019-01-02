@@ -1,0 +1,2 @@
+2017-08-30 16:21:40,477  5629 ERROR                           at.lcm.x2c.core.librarymanager.X2cLibrary 145 updateJavaClasspath - Library's jar file not found: >/local/X2C//Library/Basic/Conversion/Java/Basic.jar< (asuming classes are provided in an other way, e.g. bin dir)
+2017-08-30 16:21:42,028  7180 ERROR                           at.lcm.x2c.core.librarymanager.X2cLibrary 145 updateJavaClasspath - Library's jar file not found: >/local/X2C//Library/Basic/Conversion/Java/Basic.jar< (asuming classes are provided in an other way, e.g. bin dir)

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;stm32_f446_x2c/Middlewares/ST/UART_serial_com&apos;" deleteContents="false" description="Delete resource &apos;stm32_f446_x2c/Middlewares/ST/UART_serial_com&apos;" element1="/stm32_f446_x2c/Middlewares/ST/UART_serial_com" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1504538232321"/>
+</session>

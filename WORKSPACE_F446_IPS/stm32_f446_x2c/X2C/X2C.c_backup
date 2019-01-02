@@ -1,0 +1,155 @@
+/* This file is part of X2C. http://www.mechatronic-simulation.org/                                                   */
+
+/* Model: stm32_f446_x2c                                                                                              */
+/* Date:  2017-08-30 16:33                                                                                            */
+
+/* X2C-Version: 910                                                                                                   */
+
+#include "X2C.h"
+
+
+/*                                                       Inports                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+TInports Inports;
+
+/*                                                      Outports                                                      */
+/*--------------------------------------------------------------------------------------------------------------------*/
+TOutports Outports;
+
+/**********************************************************************************************************************/
+/**                                              Global Variables Block                                              **/
+/**********************************************************************************************************************/
+CONSTANT_FIP16                TConstant24;
+CONSTANT_FIP16                TConstant25;
+CONSTANT_FIP16                TConstant27;
+CONSTANT_FIP16                TConstant23;
+CONSTANT_FIP16                TConstant26;
+CONSTANT_FIP16                TConstant28;
+CONSTANT_FIP16                TConstant29;
+CONSTANT_FIP16                TConstant30;
+CONSTANT_FIP16                TConstant31;
+SCOPE_MAIN                    TScope;
+
+/* Block function table                                                                                               */
+#define END_BLOCKFUNCTIONS { (uint16)0, (void (*)(void*))0, (void (*)(void*))0, \
+    (uint8 (*)(void*, uint8[]))0, (uint8 (*)(void*, uint8[], uint8))0, (void* (*)(void*, uint16))0 }
+
+const tBlockFunctions blockFunctionTable[] = {
+    FUNCTIONS,
+    END_BLOCKFUNCTIONS
+};
+
+/* Parameter identifier table                                                                                         */
+#define END_PARAMETERTABLE { (uint16)0, (void*)0 }
+
+const tParameterTable parameterIdTable[] = {
+    PARAMETER_TABLE,
+    END_PARAMETERTABLE
+};
+
+/**********************************************************************************************************************/
+/**                                                  Initialization                                                  **/
+/**********************************************************************************************************************/
+void X2C_Init()
+{
+    /******************************************************************************************************************/
+    /**                                          Initialize Block Parameters                                         **/
+    /******************************************************************************************************************/
+
+    /* Block Constant24                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant24.K = 3277;
+
+    /* Block Constant25                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant25.K = 3277;
+
+    /* Block Constant27                                                                                               */
+    /* Value = 0.044                                                                                                  */
+    TConstant27.K = 1442;
+
+    /* Block Constant23                                                                                               */
+    /* Value = 0.04                                                                                                   */
+    TConstant23.K = 1311;
+
+    /* Block Constant26                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant26.K = 3277;
+
+    /* Block Constant28                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant28.K = 3277;
+
+    /* Block Constant29                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant29.K = 3277;
+
+    /* Block Constant30                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant30.K = 3277;
+
+    /* Block Constant31                                                                                               */
+    /* Value = 0.1                                                                                                    */
+    TConstant31.K = 3277;
+
+
+    /******************************************************************************************************************/
+    /**                                               Link Block Inputs                                              **/
+    /******************************************************************************************************************/
+
+    /* Block Constant24                                                                                               */
+
+    /* Block Constant25                                                                                               */
+
+    /* Block Constant27                                                                                               */
+
+    /* Block Constant23                                                                                               */
+
+    /* Block Constant26                                                                                               */
+
+    /* Block Constant28                                                                                               */
+
+    /* Block Constant29                                                                                               */
+
+    /* Block Constant30                                                                                               */
+
+    /* Block Constant31                                                                                               */
+
+    /******************************************************************************************************************/
+    /**                                                 Link Outports                                                **/
+    /******************************************************************************************************************/
+    Outports.pIQ_mes                  = &TConstant31.Out;
+    Outports.pduty_3                  = &TConstant29.Out;
+    Outports.pduty_2                  = &TConstant26.Out;
+    Outports.pduty_1                  = &TConstant28.Out;
+
+    /******************************************************************************************************************/
+    /**                                           Run Block Init Functions                                           **/
+    /******************************************************************************************************************/
+    Constant_FiP16_Init(&TConstant24);
+    Constant_FiP16_Init(&TConstant25);
+    Constant_FiP16_Init(&TConstant27);
+    Constant_FiP16_Init(&TConstant23);
+    Constant_FiP16_Init(&TConstant26);
+    Constant_FiP16_Init(&TConstant28);
+    Constant_FiP16_Init(&TConstant29);
+    Constant_FiP16_Init(&TConstant30);
+    Constant_FiP16_Init(&TConstant31);
+    Scope_Main_Init(&TScope);
+}
+
+/**********************************************************************************************************************/
+/**                                            Run Block Update Functions                                            **/
+/**********************************************************************************************************************/
+void X2C_Update(void)
+{
+    X2C_Update_1();
+
+}
+
+/* X2C_Update for blocks with 1*Ts                                                                                    */
+void X2C_Update_1(void)
+{
+    Scope_Main_Update(&TScope);
+}
+
